@@ -27,7 +27,7 @@ def poland_cases_by_date(day: int, month: int, year: int = 2020) -> int:
     :param month: Month to get the cases for as an integer indexed from 1
     :return: Number of cases on a given date as an integer
     """
-    
+
     # Your code goes here (remove pass)
     pass
 
@@ -52,9 +52,11 @@ def top5_countries_by_date(day: int, month: int, year: int = 2020) -> List[str]:
     pass
 
 
+# Function name is wrong, read the pydoc
 def no_new_cases_count(day: int, month: int, year: int = 2020) -> int:
     """
-    Returns the number of countries/regions where the infection count in a given day was the same as the previous day.
+    Returns the number of countries/regions where the infection count in a given day
+    was NOT the same as the previous day.
 
     Ex.
     >>> no_new_cases_count(11, 2, 2020)
@@ -67,6 +69,6 @@ def no_new_cases_count(day: int, month: int, year: int = 2020) -> int:
     :param year: Month to get the countries for as an integer indexed from 1
     :return: Number of countries/regions where the count has not changed in a day
     """
-    
+
     # Your code goes here (remove pass)
     pass
